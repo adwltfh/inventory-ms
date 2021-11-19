@@ -7,6 +7,39 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="<?= base_url('template/bower_components/bootstrap/dist/css/bootstrap.min.css') ?>">
+	<style>
+		.tab {
+			border-collapse: collapse;
+			cellpadding: "0";
+			cellspacing: "0";
+			border: "0"
+		}
+
+		.tab .first {
+			border-bottom: 1px solid #EEE;
+			box-shadow: inset 0 1px 0 #CCC;
+		}
+
+		.tab .second {
+			border-top: 1px solid #CCC;
+			box-shadow: inset 0 1px 0 #CCC;
+		}
+
+		.tab .third {
+			border-top: 1px solid #CCC;
+			box-shadow: inset 0 1px 0 #CCC;
+		}
+
+		.tab .fourth {
+			border-top: 1px solid #CCC;
+			box-shadow: inset 0 1px 0 #CCC;
+		}
+
+		.tab .fifth {
+			border-top: 1px solid #CCC;
+			box-shadow: inset 0 1px 0 #CCC;
+		}
+	</style>
 </head>
 
 <body>
@@ -75,41 +108,28 @@
 		</div>
 		<div class="content-3">
 			<div>
-				<h3><b>Mengetahui:</b></h3>
+				<h5><b>Mengetahui,</b></h5>
 			</div>
 			<div>
-				<table class="table table-bordered table-striped">
+				<table class="tab">
 					<tr>
-						<th>No. Pegawai</th>
-						<th>:</th>
-						<th>
-							<div class="form-group">
-								<div class="input-group input-group-sm">
-									<input type="text" class="form-control" value="<?= $user['id_user']; ?>">
-									<span class="input-group-btn">
-										<button type="button" class="btn btn-info btn-flat" placeholder="ID Barang">Cari</button>
-									</span>
-								</div>
-							</div>
-						</th>
+						<td class="first"><?= $user['jabatan']; ?> PT Bukit Asam, Tbk. (Persero)</td>
 					</tr>
 					<tr>
-						<th>Nama Pegawai</th>
-						<th>:</th>
-						<th>
-							<div class="form-group">
-								<input type="text" class="form-control" value="<?= $user['nama_lengkap']; ?>" disabled>
-							</div>
-						</th>
+						<td class="second">ㅤ</td>
 					</tr>
 					<tr>
-						<th>Jabatan</th>
-						<th>:</th>
-						<th>
-							<div class=" form-group">
-								<input type="text" class="form-control" value="<?= $user['jabatan']; ?>" disabled>
-							</div>
-						</th>
+						<td class="third">ㅤ</td>
+					</tr>
+					<tr>
+						<td class="fourth">
+							<?= $user['nama_lengkap']; ?>
+						</td>
+					</tr>
+					<tr>
+						<td class="fifth">
+							<?= $user['id_user']; ?>
+						</td>
 					</tr>
 				</table>
 			</div>
