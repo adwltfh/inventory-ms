@@ -3,7 +3,7 @@
 	<!-- Content Header (Page header) -->
 	<section class="content-header">
 		<h1>
-			Tambah Data Barang
+			Tambah User
 			<small>Form</small>
 		</h1>
 		<ol class="breadcrumb">
