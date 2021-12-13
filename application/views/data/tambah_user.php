@@ -9,7 +9,7 @@
 		<ol class="breadcrumb">
 			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
 			<li><a href="#">Data Barang</a></li>
-			<li class="active">Tambah Data Barang</li>
+			<li class="active">Tambah User</li>
 		</ol>
 	</section>
 
@@ -21,7 +21,7 @@
 				<!-- general form elements -->
 				<div class="box box-primary">
 					<div class="box-header with-border">
-						<h3 class="box-title">Tambah Data Barang</h3>
+						<h3 class="box-title">Tambah User</h3>
 					</div>
 					<!-- /.box-header -->
 					<!-- form start -->
