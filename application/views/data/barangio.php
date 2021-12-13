@@ -28,9 +28,6 @@
 							<a href="<?php echo base_url('/barangio/print') ?>?type=<?php echo $_GET['type'] ?>&id_user=<?php echo $_GET['id_user'] ?>&<?php echo (isset($_GET['min']) && isset($_GET['max']) ? "min=" . $_GET['min'] .  "&max=" . $_GET['max'] : '') ?>" class="btn btn-success btn-sm pull-right print-btn"><i class="fa fa-print">
 									<span><b>Cetak</b></span>
 								</i></a>
-							<a href="<?php echo base_url('/barangio') ?>?type=<?php echo $_GET['type']; ?>" class="btn btn-success btn-sm pull-right print-btn"><i class="fa fa-print">
-									<span><b>Bersihkan Filter</b></span>
-								</i></a>
 						</div>
 						<!-- /.box-header -->
 						<div class="box-body">
