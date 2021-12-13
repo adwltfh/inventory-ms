@@ -12,32 +12,12 @@
 			border-collapse: collapse;
 			cellpadding: "0";
 			cellspacing: "0";
-			border: "0"
+			border: 0;
 		}
 
-		.tab .first {
-			border-bottom: 1px solid #EEE;
-			box-shadow: inset 0 1px 0 #CCC;
-		}
-
-		.tab .second {
-			border-top: 1px solid #CCC;
-			box-shadow: inset 0 1px 0 #CCC;
-		}
-
-		.tab .third {
-			border-top: 1px solid #CCC;
-			box-shadow: inset 0 1px 0 #CCC;
-		}
-
-		.tab .fourth {
-			border-top: 1px solid #CCC;
-			box-shadow: inset 0 1px 0 #CCC;
-		}
-
-		.tab .fifth {
-			border-top: 1px solid #CCC;
-			box-shadow: inset 0 1px 0 #CCC;
+		.content-3 {
+			padding-top: 50px;
+			margin-left: 60%;
 		}
 	</style>
 </head>
@@ -116,18 +96,18 @@
 						<td class="first"><?= $user['jabatan']; ?> PT Bukit Asam, Tbk. (Persero)</td>
 					</tr>
 					<tr>
-						<td class="second">ㅤ</td>
+						<td>ㅤ</td>
 					</tr>
 					<tr>
-						<td class="third">ㅤ</td>
+						<td>ㅤ</td>
 					</tr>
 					<tr>
-						<td class="fourth">
+						<td>
 							<?= $user['nama_lengkap']; ?>
 						</td>
 					</tr>
 					<tr>
-						<td class="fifth">
+						<td>
 							<?= $user['id_user']; ?>
 						</td>
 					</tr>
